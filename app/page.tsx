@@ -102,7 +102,7 @@ export default function Home() {
                   </div>
                   <h2 className="text-2xl font-bold mb-3 text-[#171717]">Reach Out to Us</h2>
                   <p className="text-gray-600 mb-8 text-lg">
-                    Have questions or want to collaborate? We'd love to hear from you.
+                    Have questions or want to collaborate? We&apos;d love to hear from you.
                   </p>
                   <button className="w-full border border-[#268196] py-3.5 rounded-lg text-sm text-[#268196] font-medium cursor-pointer">
                     Get in Touch
@@ -114,7 +114,7 @@ export default function Home() {
             {/* Right Content - Illustration */}
             <div className="w-full lg:w-[45%] relative md:h-[400px] lg:h-[600px] hidden xl:block">
               <div className="absolute left-0 lg:-right-[65px] lg:left-auto top-0 w-full h-full">
-                <img
+                <Image
                   src="/logo2.png"
                   alt="logo"
                   className="h-full w-full object-cover rounded-lg scale-105 lg:scale-125"
@@ -350,13 +350,13 @@ const TeamPage = () => {
         <div className="mt-16">
           <h2 className="text-3xl font-bold mb-4 text-[#171717]">The Team</h2>
           <p className="text-lg text-gray-700">
-            We're a team of researchers, engineers, and operational leaders, with experience
+            We&apos;re a team of researchers, engineers, and operational leaders, with experience
             spanning a variety of disciplines, all working together to build reliable and sustainable products.
           </p>
         </div>
 
         <div className="flex flex-col mb-44 md:mb-0">
-          <img
+          <Image
             src={teams[0].image}
             alt={teams[0].title}
             className="w-full h-80 object-cover rounded-lg mb-4"
@@ -370,7 +370,7 @@ const TeamPage = () => {
           <p className="text-gray-700">{teams[1].description}</p>
           <div className="absolute bottom-[80%] left-0 w-full md:px-2 z-[0]">
             <div className="h-60 w-full rounded-md bg-slate-500">
-              <img
+              <Image
                 src={teams[1].image}
                 alt="code"
                 className="w-full object-cover h-full rounded-lg"
